@@ -7,7 +7,7 @@ import re
 
 class VkCommentsParsing:
     def __init__(self):
-        self.vk_api = self.connect_api("557aa9f1557aa9f1557aa9f1ea55034ca55557a557aa9f13407d0d0c2d15e2dc55ac31f")
+        self.vk_api = self.connect_api()
 
     # Подключение к API
     @staticmethod
